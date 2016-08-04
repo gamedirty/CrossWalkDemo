@@ -1,0 +1,5 @@
+include ':app'
+include ':crosswebviewarm32'
+include ':crosswebviewarm64'
+include ':crosswebviewintel32'
+include ':crosswebviewintel64'
