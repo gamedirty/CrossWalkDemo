@@ -1,17 +1,62 @@
 package com.example.sovnem.crosswalkdemo;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
 
+import org.xwalk.core.XWalkGetBitmapCallback;
+import org.xwalk.core.XWalkJavascriptResult;
 import org.xwalk.core.XWalkResourceClient;
+import org.xwalk.core.XWalkSettings;
 import org.xwalk.core.XWalkUIClient;
 import org.xwalk.core.XWalkView;
 
 public class MainActivity extends AppCompatActivity {
     XWalkView xWalkView;
     ProgressBar progressBar;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        xWalkView = (XWalkView) findViewById(R.id.webview);
+        progressBar = (ProgressBar) findViewById(R.id.progress);
+        xWalkView.setResourceClient(new MyResourceClient(xWalkView));
+        xWalkView.setUIClient(new MyUIClient(xWalkView));
+        xWalkView.load("file:///android_asset/index.html", null);
+//        xWalkView.load("http://www.baidu.com", null);
+        L.i("版本号:" + xWalkView.getAPIVersion());
+        XWalkSettings setting = xWalkView.getSettings();
+        setting.setAcceptLanguages("javascript");
+        xWalkView.addJavascriptInterface(new JsActor(), "andoridactor");
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        xWalkView.onDestroy();
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        if (xWalkView != null) {
+            xWalkView.onNewIntent(intent);
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (null != xWalkView) {
+            xWalkView.onActivityResult(requestCode, resultCode, data);
+        }
+    }
 
     class MyResourceClient extends XWalkResourceClient {
         MyResourceClient(XWalkView view) {
@@ -20,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean shouldOverrideUrlLoading(XWalkView view, String url) {
+            L.i("shouldOverrideUrlLoading:" + url);
             return super.shouldOverrideUrlLoading(view, url);
         }
 
@@ -27,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         public void onProgressChanged(XWalkView view, int progressInPercent) {
             super.onProgressChanged(view, progressInPercent);
             progressBar.setProgress(progressInPercent);
-            L.i("onProgressChanged:"+progressInPercent);
+            L.i("onProgressChanged:" + progressInPercent);
         }
     }
 
@@ -53,16 +99,12 @@ public class MainActivity extends AppCompatActivity {
             progressBar.setVisibility(View.GONE);
         }
 
+        @Override
+        public boolean onJsAlert(XWalkView view, String url, String message, XWalkJavascriptResult result) {
+            L.i("onJsAlert:" + message);
+            return super.onJsAlert(view, url, message, result);
+        }
+
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        xWalkView = (XWalkView) findViewById(R.id.webview);
-        progressBar = (ProgressBar) findViewById(R.id.progress);
-        xWalkView.setResourceClient(new MyResourceClient(xWalkView));
-        xWalkView.setUIClient(new MyUIClient(xWalkView));
-        xWalkView.load("http://www.baidu.com", null);
-    }
 }

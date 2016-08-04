@@ -40,7 +40,7 @@
         jar="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="6d93427b6927198bacd433ca8a634ba56e99d9f3">
+        sha1="892675a8d39d70359bf4728a960a8982297ede8b">
         <dex dex="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f1b496767e970c4e407593af3f619f6ea64d2dc7/classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jar="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="dbeb1b0698b12d4e43891cfa35a838461ed000a0">
+        sha1="ff80456cdfd2372948f360b19e4d24c186c9810a">
         <dex dex="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_87738734e8b526aaf736b14c9a78d76c65a2bbf5/classes.dex" />
     </item>
 
