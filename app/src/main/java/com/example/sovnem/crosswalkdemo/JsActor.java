@@ -13,4 +13,10 @@ public class JsActor {
     public void onJsClick() {
         L.i("方法反反复复");
     }
+
+    public String showImage(String local) {
+        return null;
+    }
+
+
 }

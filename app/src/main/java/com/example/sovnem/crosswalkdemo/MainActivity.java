@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
         xWalkView.load("file:///android_asset/index.html", null);
 //        xWalkView.load("http://www.baidu.com", null);
         L.i("版本号:" + xWalkView.getAPIVersion());
-        XWalkSettings setting = xWalkView.getSettings();
-        setting.setAcceptLanguages("javascript");
         xWalkView.addJavascriptInterface(new JsActor(), "andoridactor");
     }
 
@@ -75,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
             progressBar.setProgress(progressInPercent);
             L.i("onProgressChanged:" + progressInPercent);
         }
+
     }
 
     class MyUIClient extends XWalkUIClient {
