@@ -106,17 +106,17 @@ public final class R {
 		public static final int year = 0x7f0e007e;
 	}
 	public static final class layout {
-		public static final int autofill_keyboard_accessory_icon = 0x7f04001a;
-		public static final int autofill_keyboard_accessory_item = 0x7f04001b;
-		public static final int color_picker_advanced_component = 0x7f04001c;
-		public static final int color_picker_dialog_content = 0x7f04001d;
-		public static final int color_picker_dialog_title = 0x7f04001e;
-		public static final int date_time_picker_dialog = 0x7f04001f;
-		public static final int date_time_suggestion = 0x7f040020;
-		public static final int dropdown_item = 0x7f040021;
-		public static final int multi_field_time_picker_dialog = 0x7f040022;
-		public static final int two_field_date_picker = 0x7f04002f;
-		public static final int validation_message_bubble = 0x7f040030;
+		public static final int autofill_keyboard_accessory_icon = 0x7f04001b;
+		public static final int autofill_keyboard_accessory_item = 0x7f04001c;
+		public static final int color_picker_advanced_component = 0x7f04001d;
+		public static final int color_picker_dialog_content = 0x7f04001e;
+		public static final int color_picker_dialog_title = 0x7f04001f;
+		public static final int date_time_picker_dialog = 0x7f040020;
+		public static final int date_time_suggestion = 0x7f040021;
+		public static final int dropdown_item = 0x7f040022;
+		public static final int multi_field_time_picker_dialog = 0x7f040023;
+		public static final int two_field_date_picker = 0x7f040030;
+		public static final int validation_message_bubble = 0x7f040031;
 	}
 	public static final class menu {
 		public static final int select_action_menu = 0x7f0f0000;

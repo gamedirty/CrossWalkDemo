@@ -4,38 +4,30 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="82517302442929"
-    token="2514960339117742657"
-    verifier="METHOD_ANNOTATION_CHANGE" >
+    timestamp="114397545469453"
+    token="2514960339117742657" >
 
     <task
         name="javac"
-        duration="53" />
+        duration="534" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="62" />
     <task
         name="verifier"
-        duration="0" />
+        duration="32" />
 
     <artifact
-        location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
+        location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="82446352256417" >
+    <build timestamp="114397545469453" >
         <artifact
             location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="82517302442929"
-        verifier="METHOD_ANNOTATION_CHANGE" >
-        <artifact
-            location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

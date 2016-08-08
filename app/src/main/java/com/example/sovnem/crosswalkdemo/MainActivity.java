@@ -27,16 +27,18 @@ public class MainActivity extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progress);
         xWalkView.setResourceClient(new MyResourceClient(xWalkView));
         xWalkView.setUIClient(new MyUIClient(xWalkView));
-        xWalkView.load("file:///android_asset/index.html", null);
+//        xWalkView.load("http://url.cn/2FE34ZV", null);
+        xWalkView.load("http://qa.market-trans-h5.wmdev2.lsh123.com/",null);
 //        xWalkView.load("http://www.baidu.com", null);
         L.i("版本号:" + xWalkView.getAPIVersion());
-        xWalkView.addJavascriptInterface(new JsActor(), "andoridactor");
+        xWalkView.addJavascriptInterface(new JsActor(this), "andoridactor");
     }
 
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        if (xWalkView!=null)
         xWalkView.onDestroy();
     }
 
@@ -73,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
             progressBar.setProgress(progressInPercent);
             L.i("onProgressChanged:" + progressInPercent);
         }
+
 
     }
 

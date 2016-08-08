@@ -2,22 +2,33 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
-		
-		<script>
-			
-			function show(var str){
-				alert(str);
+		<script language="JavaScript">
+			function show(str){
+				alert("fdsffsdfsdf:"+str);
 			}
 			
-			
+			function submit(){
+				var title =  document.getElementById("title").value;
+				var message =  document.getElementById("message").value;
+				var messageid =  document.getElementById("messageid").value;
+				var extras =  document.getElementById("extras").value;
+				window.andoridactor.showNotify(title,message,messageid,extras);
+//alert("输入的信息:"+title+message+messageid+extras);
+			}
 		</script>
 		
 	</head>
 	<body>
+		<br />
+		title:<input type="text" id="title" ></input>
+		<br />
+		message:<input type="text" id="message" />
+		<br />
+		messageId:<input type="text" id="messageid" />
+		<br />
+		extras:<input type="text" id="extras" />
+		<br />
+		<button onclick="submit()">显示通知</button>
 		
-		<h1> 我就是哈哈</h1>
-		<button onclick="window.andoridactor.onJsClick()"> 点击啊</button>
-		<button onclick="alert('fffff')">fuck 有</button>
 	</body>
 </html>
