@@ -22,7 +22,7 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
 
     public static final String toLoadJs = "WebViewJavascriptBridge.js";
     Map<String, CallBackFunction> responseCallbacks = new HashMap<String, CallBackFunction>();
-    Map<String, BridgeHandler> messageHandlers = new HashMap<String, BridgeHandler>();
+    Map<String, BridgeHandler> messageHandlers = new HashMap<>();
     BridgeHandler defaultHandler = new DefaultHandler();
 
     private List<Message> startupMessage = new ArrayList<Message>();
