@@ -88,6 +88,10 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
     },
     {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/layout/activity_hull.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/res/layout/activity_hull.xml"
+    },
+    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
     },
@@ -124,12 +128,12 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",

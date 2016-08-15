@@ -6,7 +6,7 @@ android {
     compileSdkVersion 21
     buildToolsVersion "23.0.3"
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 16
         targetSdkVersion 21
         versionCode 1
         versionName version
@@ -20,6 +20,7 @@ android {
 }
 
 dependencies {
+    compile project(':crosswebviewarm32')
 }
 
 def siteUrl = 'https://github.com/lzyzsd/JsBridge'

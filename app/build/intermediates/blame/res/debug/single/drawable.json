@@ -92,12 +92,12 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/webview_progressbar.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/res/drawable/webview_progressbar.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/bubble_arrow_up.png",

@@ -4,18 +4,18 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="114397545469453"
+    timestamp="242003704189014"
     token="2514960339117742657" >
 
     <task
         name="javac"
-        duration="534" />
+        duration="302" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="62" />
+        duration="268" />
     <task
         name="verifier"
         duration="32" />
@@ -24,7 +24,7 @@
         location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="114397545469453" >
+    <build timestamp="242003704189014" >
         <artifact
             location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

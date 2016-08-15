@@ -1,8 +1,8 @@
 package com.github.lzyzsd.jsbridge;
 
 import android.content.Context;
-import android.util.Base64;
-import android.webkit.WebView;
+
+import org.xwalk.core.XWalkView;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -61,16 +61,16 @@ public class BridgeUtil {
 	 * @param view
 	 * @param url
 	 */
-	public static void webViewLoadJs(WebView view, String url){
+	public static void webViewLoadJs(XWalkView view, String url){
 		String js = "var newscript = document.createElement(\"script\");";
 		js += "newscript.src=\"" + url + "\";";
 		js += "document.scripts[0].parentNode.insertBefore(newscript,document.scripts[0]);";
-		view.loadUrl("javascript:" + js);
+		view.load("javascript:" + js,null);
 	}
 
-    public static void webViewLoadLocalJs(WebView view, String path){
+    public static void webViewLoadLocalJs(XWalkView view, String path){
         String jsContent = assetFile2Str(view.getContext(), path);
-        view.loadUrl("javascript:" + jsContent);
+        view.load("javascript:" + jsContent,null);
     }
 	
 	public static String assetFile2Str(Context c, String urlStr){

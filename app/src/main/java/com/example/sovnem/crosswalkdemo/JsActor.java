@@ -22,6 +22,7 @@ import java.util.Random;
 public class JsActor {
     private Context context;
 
+
     public JsActor(Context context) {
         this.context = context;
     }

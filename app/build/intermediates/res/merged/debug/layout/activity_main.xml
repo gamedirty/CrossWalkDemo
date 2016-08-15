@@ -9,18 +9,8 @@
 
 
 
-    <org.xwalk.core.XWalkView
+    <com.github.lzyzsd.jsbridge.BridgeWebView
         android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-    <ProgressBar
-        android:id="@+id/progress"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:visibility="gone"
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:layout_gravity="center_horizontal|top"
-        android:max="100"
-        android:progressDrawable="@drawable/webview_progressbar" />
 </FrameLayout>
