@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 //        xWalkView.load("http://www.baidu.com", null);
         L.i("版本号:" + xWalkView.getAPIVersion());
         xWalkView.addJavascriptInterface(new JsActor(this), "andoridactor");
+        xWalkView.load("",null);
     }
 
 
