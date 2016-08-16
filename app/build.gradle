@@ -17,11 +17,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile project(':library')
-        compile 'pub.devrel:easypermissions:0.1.9'
+    compile 'pub.devrel:easypermissions:0.1.9'
+    compile project(':zxing_lib')
 }

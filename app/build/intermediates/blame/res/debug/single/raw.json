@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/raw/zxing_beep.ogg",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/zxing_lib/unspecified/res/raw/zxing_beep.ogg"
+    },
+    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/raw/messaging_api.js",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/raw/messaging_api.js"
     },

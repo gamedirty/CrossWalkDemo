@@ -191,7 +191,7 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
     }
 
     public void loadUrl(String jsUrl, CallBackFunction returnCallback) {
-        this.loadUrl(jsUrl, null);
+        this.load(jsUrl, null);
         responseCallbacks.put(BridgeUtil.parseFunctionName(jsUrl), returnCallback);
     }
 
