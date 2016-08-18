@@ -68,6 +68,7 @@
     // 提供给native调用,该函数作用:获取sendMessageQueue返回给native,由于android不能直接获取返回的内容,所以使用url shouldOverrideUrlLoading 的方式返回内容
     function _fetchQueue() {
         var messageQueueString = JSON.stringify(sendMessageQueue);
+         console.log(messageQueueString);
         sendMessageQueue = [];
         //android can't read directly the return data, so we can reload iframe src to communicate with java
         messagingIframe.src = CUSTOM_PROTOCOL_SCHEME + '://return/_fetchQueue/' + encodeURIComponent(messageQueueString);
@@ -75,7 +76,6 @@
 
     //提供给native使用,
     function _dispatchMessageFromNative(messageJSON) {
-    console.log('dddvv');
         setTimeout(function() {
             var message = JSON.parse(messageJSON);
             var responseCallback;
@@ -85,8 +85,8 @@
                 if (!responseCallback) {
                     return;
                 }
-                console.log('lalala:'+message.responseData);
                 responseCallback(message.responseData);
+                console.log('_dispatchMessageFromNative:'+message.responseData);
                 delete responseCallbacks[message.responseId];
             } else {
                 //直接发送
@@ -118,13 +118,10 @@
 
     //提供给native调用,receiveMessageQueue 在会在页面加载完后赋值为null,所以
     function _handleMessageFromNative(messageJSON) {
-        console.log(messageJSON);
-        console.log('ffddfdf');
 //        if (receiveMessageQueue) {
 //        console.log('mm');
 //            receiveMessageQueue.push(messageJSON);
 //        } else {
-        console.log('ii');
             _dispatchMessageFromNative(messageJSON);
 //        }
     }

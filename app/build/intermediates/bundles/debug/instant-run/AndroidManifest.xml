@@ -74,19 +74,16 @@
             android:name="com.amap.api.v2.apikey"
             android:value="1bbcf61e8de23d86bb2c76107551d604" />
 
-        <activity android:name="com.example.sovnem.crosswalkdemo.MainActivity" >
+        <activity android:name="com.example.sovnem.crosswalkdemo.HullActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.sovnem.crosswalkdemo.Main2Activity" />
         <activity android:name="com.lsh123.zxing.CaptureActivity" />
 
         <service android:name="com.amap.api.location.APSService" />
-
-        <activity android:name="com.example.sovnem.crosswalkdemo.HullActivity" />
 
         <!-- Rich push 核心功能 since 2.0.6 -->
         <activity

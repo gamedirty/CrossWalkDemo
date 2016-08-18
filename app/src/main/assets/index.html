@@ -19,7 +19,7 @@
 			}
 
 			function doLocation(){
-				WebViewJavascriptBridge.callHandler('sovnem',{'name':'1'},function(responseData){
+				WebViewJavascriptBridge.callHandler('locator',{'name':'1'},function(responseData){
 					alert('定位结果:'+responseData);
 					document.getElementById('locationshow').innerHTML="定位结果:"+responseData;
 					console.log('定位成功');
@@ -28,9 +28,10 @@
 
 			function scanCode(){
 			WebViewJavascriptBridge.callHandler('scaner',{'name':'1'},function(responseData){
-			console.log('返回结果是:'+responseData);
-			document.getElementById('scancode').innerHTML="扫描结果:"+responseData;
-				})
+
+			    console.log('返回结果是:'+responseData);
+			    document.getElementById('scancode').innerHTML="扫描结果:"+responseData;
+			    })
 			}
 
 			function setTag(){
@@ -38,9 +39,11 @@
 
 				WebViewJavascriptBridge.callHandler('bindTag',{'tag':''+tag},function(responseData){
 					console.log('返回结果是:'+responseData);
+					alert('绑定结果是:'+responseData);
 				})
 
 			}
+
 
     </script>
 
@@ -58,8 +61,8 @@
 <br/>
 <div id="scancode"></div>
 <br/>
-<input type="text" id="tag" />
-<br />
+<input type="text" id="tag"/>
+<br/>
 <button onclick="setTag();">绑定别名</button>
 </body>
 </html>

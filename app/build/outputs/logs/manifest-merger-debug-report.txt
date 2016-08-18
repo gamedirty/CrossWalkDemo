@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:2:1-190:12
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:2:1-187:12
 	package
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml
@@ -116,7 +116,7 @@ ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/Androi
 	android:name
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:59:22-76
 application
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:62:5-188:19
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:62:5-185:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
@@ -160,7 +160,7 @@ ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/Androi
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:72:13-61
 	android:name
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:71:13-50
-activity#com.example.sovnem.crosswalkdemo.MainActivity
+activity#com.example.sovnem.crosswalkdemo.HullActivity
 ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:74:9-80:20
 	android:name
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:74:19-47
@@ -174,188 +174,180 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:78:17-77
 	android:name
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:78:27-74
-activity#com.example.sovnem.crosswalkdemo.Main2Activity
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:81:9-51
-	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:81:19-48
 activity#com.lsh123.zxing.CaptureActivity
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:82:9-69
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:81:9-69
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:82:19-66
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:81:19-66
 service#com.amap.api.location.APSService
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:84:9-68
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:83:9-68
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:84:18-65
-activity#com.example.sovnem.crosswalkdemo.HullActivity
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:86:9-59
-	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:86:19-47
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:83:18-65
 activity#cn.jpush.android.ui.PopWinActivity
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:89:9-92:15
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:86:9-89:15
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:91:13-37
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:90:13-62
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:87:13-62
 activity#cn.jpush.android.ui.PushActivity
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:95:9-106:20
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:92:9-103:20
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:98:13-37
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:95:13-37
 	android:configChanges
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:97:13-63
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:94:13-63
 	android:theme
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:99:13-60
-	android:name
 		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:96:13-60
+	android:name
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:93:13-60
 intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.example.sovnem.crosswalkdemo
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:100:13-105:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:97:13-102:29
 action#cn.jpush.android.ui.PushActivity
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:101:17-75
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:98:17-75
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:101:25-72
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:98:25-72
 category#android.intent.category.DEFAULT
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:103:17-76
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:100:17-76
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:103:27-73
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:100:27-73
 category#com.example.sovnem.crosswalkdemo
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:104:17-77
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:101:17-77
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:104:27-74
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:101:27-74
 service#cn.jpush.android.service.PushService
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:108:9-118:19
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:105:9-115:19
 	android:enabled
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:110:13-35
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:107:13-35
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:111:13-37
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:108:13-37
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:109:13-64
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:106:13-64
 intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:112:13-117:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:109:13-114:29
 action#cn.jpush.android.intent.REGISTER
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:113:17-75
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:110:17-75
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:113:25-72
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:110:25-72
 action#cn.jpush.android.intent.REPORT
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:114:17-73
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:111:17-73
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:114:25-70
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:111:25-70
 action#cn.jpush.android.intent.PushService
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:115:17-78
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:112:17-78
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:115:25-75
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:112:25-75
 action#cn.jpush.android.intent.PUSH_TIME
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:116:17-76
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:113:17-76
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:116:25-73
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:113:25-73
 service#cn.jpush.android.service.DaemonService
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:122:9-131:19
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:119:9-128:19
 	android:enabled
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:124:13-35
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:121:13-35
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:125:13-36
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:122:13-36
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:123:13-66
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:120:13-66
 intent-filter#cn.jpush.android.intent.DaemonService+com.example.sovnem.crosswalkdemo
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:126:13-129:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:123:13-126:29
 action#cn.jpush.android.intent.DaemonService
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:127:17-80
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:124:17-80
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:127:25-77
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:124:25-77
 receiver#cn.jpush.android.service.PushReceiver
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:134:9-154:20
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:131:9-151:20
 	android:enabled
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:136:13-35
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:133:13-35
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:137:13-37
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:134:13-37
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:135:13-65
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:132:13-65
 intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.example.sovnem.crosswalkdemo
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:138:13-141:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:135:13-138:29
 	android:priority
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:138:28-51
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:135:28-51
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:139:17-94
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:136:17-94
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:139:25-91
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:136:25-91
 intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:142:13-145:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:139:13-142:29
 action#android.intent.action.USER_PRESENT
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:143:17-77
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:140:17-77
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:143:25-74
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:140:25-74
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:144:17-79
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:141:17-79
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:144:25-76
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:141:25-76
 intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:147:13-152:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:144:13-149:29
 action#android.intent.action.PACKAGE_ADDED
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:148:17-78
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:145:17-78
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:148:25-75
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:145:25-75
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:149:17-80
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:146:17-80
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:149:25-77
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:146:25-77
 data
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:151:17-50
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:148:17-50
 	android:scheme
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:151:23-47
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:148:23-47
 receiver#cn.jpush.android.service.AlarmReceiver
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:157:9-159:40
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:154:9-156:40
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:159:13-37
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:156:13-37
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:158:13-66
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:155:13-66
 receiver#com.example.sovnem.crosswalkdemo.PushReceiver
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:162:9-176:20
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:159:9-173:20
 	android:enabled
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:164:13-35
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:161:13-35
 	android:exported
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:165:13-37
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:162:13-37
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:163:13-73
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:160:13-73
 intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.example.sovnem.crosswalkdemo
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:166:13-175:29
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:163:13-172:29
 action#cn.jpush.android.intent.REGISTRATION
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:167:17-79
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:164:17-79
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:167:25-76
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:164:25-76
 action#cn.jpush.android.intent.UNREGISTRATION
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:168:17-81
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:165:17-81
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:168:25-78
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:165:25-78
 action#cn.jpush.android.intent.MESSAGE_RECEIVED
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:169:17-83
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:166:17-83
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:169:25-80
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:166:25-80
 action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:170:17-88
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:167:17-88
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:170:25-85
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:167:25-85
 action#cn.jpush.android.intent.NOTIFICATION_OPENED
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:171:17-86
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:168:17-86
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:171:25-83
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:168:25-83
 action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:172:17-91
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:169:17-91
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:172:25-88
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:169:25-88
 action#cn.jpush.android.intent.CONNECTION
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:173:17-77
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:170:17-77
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:173:25-74
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:170:25-74
 meta-data#JPUSH_CHANNEL
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:180:9-182:49
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:177:9-179:49
 	android:value
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:182:13-46
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:179:13-46
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:181:13-41
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:178:13-41
 meta-data#JPUSH_APPKEY
-ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:183:9-185:56
+ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:180:9-182:56
 	android:value
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:185:13-53
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:182:13-53
 	android:name
-		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:184:13-40
+		ADDED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml:181:13-40
 uses-sdk
 INJECTED from /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78

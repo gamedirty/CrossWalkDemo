@@ -23,6 +23,9 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
+    dexOptions{
+        incremental true
+    }
 }
 
 dependencies {
@@ -31,4 +34,5 @@ dependencies {
     compile project(':library')
     compile 'pub.devrel:easypermissions:0.1.9'
     compile project(':zxing_lib')
+    compile 'com.google.code.gson:gson:2.7'
 }

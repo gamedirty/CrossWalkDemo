@@ -6,6 +6,7 @@ import android.os.Looper;
 import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 
 import org.xwalk.core.XWalkUIClient;
 import org.xwalk.core.XWalkView;
@@ -72,8 +73,10 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
 
     void handlerReturnData(String url) {
         String functionName = BridgeUtil.getFunctionFromReturnUrl(url);
+        Log.i("zhjh","URL中的方法是:"+functionName);
         CallBackFunction f = responseCallbacks.get(functionName);
         String data = BridgeUtil.getDataFromReturnUrl(url);
+        Log.i("zhjh","URL中的数据是:"+data);
         if (f != null) {
             f.onCallBack(data);
             responseCallbacks.remove(functionName);
@@ -132,6 +135,7 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
 
                 @Override
                 public void onCallBack(String data) {
+                    Log.i("zhjh","onCallBack:"+data);
                     // deserializeMessage
                     List<Message> list = null;
                     try {
@@ -160,6 +164,7 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
                                 responseFunction = new CallBackFunction() {
                                     @Override
                                     public void onCallBack(String data) {
+                                        Log.i("zhjh","onCallBack:"+data);
                                         Message responseMsg = new Message();
                                         responseMsg.setResponseId(callbackId);
                                         responseMsg.setResponseData(data);
