@@ -18,8 +18,28 @@
 //alert("输入的信息:"+title+message+messageid+extras);
 			}
 
+			/*
+			boolean gpsFirst;
+            boolean killProcess;
+            long timeout;
+            long intervel;
+            boolean locationCache;
+            int locationMode;//1,Battery_Saving,2:Device_Sensors,3:Hight_Accuracy
+            boolean onceLocation;
+			*/
+
 			function doLocation(){
-				WebViewJavascriptBridge.callHandler('locator',{'name':'1'},function(responseData){
+			var options = {
+				gpsFirst:true,
+				killProcess:true,
+				timeout:10000,
+				intervel:10000,
+				locationCache:false,
+				locationMode:1,
+				onceLocation:true
+				};
+
+				WebViewJavascriptBridge.callHandler('locator',options,function(responseData){
 					alert('定位结果:'+responseData);
 					document.getElementById('locationshow').innerHTML="定位结果:"+responseData;
 					console.log('定位成功');

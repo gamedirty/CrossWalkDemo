@@ -1,8 +1,4 @@
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/HullActivity$1$override.class
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/HullActivity$2$override.class
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridge/LocationBridge$LocationBridgeHandler$override.class
 CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridge/LocationBridge$1$override.class
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/HullActivity$3$override.class
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/HullActivity$override.class
+CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridge/LocationBridge$GPSOptions$override.class
 CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridge/LocationBridge$override.class
 CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

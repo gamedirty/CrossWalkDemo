@@ -4,7 +4,7 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="314785259112922"
+    timestamp="329511326233573"
     token="2514960339117742657" >
 
     <task
@@ -20,11 +20,24 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="314550505767263" >
+    <artifact
+        location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="325670508323763" >
         <artifact
             location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="314785259112922" />
+    <build timestamp="329389893327937" >
+        <artifact
+            location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="329511326233573" >
+        <artifact
+            location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
 
 </instant-run>

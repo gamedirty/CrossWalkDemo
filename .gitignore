@@ -6,3 +6,6 @@
 LianShangShop.iml
 local.properties
 /crosswebviewarm32/build/
+/crosswebviewarm64/build/
+/crosswebviewintel32/build/
+/crosswebviewintel64/build/
