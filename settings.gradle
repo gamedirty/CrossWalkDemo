@@ -1,4 +1,4 @@
-include ':app', ':library', ':zxing_lib'
+include ':app', ':library', ':zxing_lib', ':image_cache_lib', ':photoview_lib', ':photopicker_lib', ':support_lib', ':libraryforwebview'
 include ':crosswebviewarm32'
 include ':crosswebviewarm64'
 include ':crosswebviewintel32'

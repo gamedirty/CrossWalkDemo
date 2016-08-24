@@ -2,5 +2,13 @@
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/menu/select_action_menu.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/menu/select_action_menu.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/menu/menu_picker.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/menu/menu_picker.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/menu/menu_preview.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/menu/menu_preview.xml"
     }
 ]

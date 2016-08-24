@@ -32,12 +32,12 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/drawable/ondemand_overlay.9.png"
     },
     {
-        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/button_compat_shape.xml",
-        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/drawable/button_compat_shape.xml"
-    },
-    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/button_compat_shape.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/drawable/button_compat_shape.xml"
     },
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
@@ -76,6 +76,10 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/drawable/bubble.9.png"
     },
     {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/drawable/design_fab_background.xml"
+    },
+    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/dropdown_label_color.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/crosswebviewarm32/unspecified/res/drawable/dropdown_label_color.xml"
     },
@@ -98,6 +102,14 @@
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/webview_progressbar.xml",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/res/drawable/webview_progressbar.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/text_indicator.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/drawable/text_indicator.xml"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/drawable/bubble_arrow_up.png",

@@ -1,6 +1,18 @@
 [
     {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/text_indicator_pressed.png",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/mipmap-xhdpi-v4/text_indicator_pressed.png"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_action_discard.png",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/mipmap-xhdpi-v4/ic_action_discard.png"
+    },
+    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/text_indicator_normal.png",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/mipmap-xhdpi-v4/text_indicator_normal.png"
     }
 ]

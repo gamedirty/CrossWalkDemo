@@ -18,9 +18,12 @@
     var uniqueId = 1;
 
     function _createQueueReadyIframe(doc) {
+     console.log('tianjiachnggong:'+doc);
         messagingIframe = doc.createElement('iframe');
         messagingIframe.style.display = 'none';
         doc.documentElement.appendChild(messagingIframe);
+         console.log('ddddd');
+
     }
 
     //set default messageHandler
@@ -62,11 +65,13 @@
         }
 
         sendMessageQueue.push(message);
+        console.log("lllll:"+CUSTOM_PROTOCOL_SCHEME + '://' + QUEUE_HAS_MESSAGE);
         messagingIframe.src = CUSTOM_PROTOCOL_SCHEME + '://' + QUEUE_HAS_MESSAGE;
     }
 
     // 提供给native调用,该函数作用:获取sendMessageQueue返回给native,由于android不能直接获取返回的内容,所以使用url shouldOverrideUrlLoading 的方式返回内容
     function _fetchQueue() {
+    console.log('_fetchQueue');
         var messageQueueString = JSON.stringify(sendMessageQueue);
         sendMessageQueue = [];
         //android can't read directly the return data, so we can reload iframe src to communicate with java
@@ -117,11 +122,10 @@
     //提供给native调用,receiveMessageQueue 在会在页面加载完后赋值为null,所以
     function _handleMessageFromNative(messageJSON) {
         console.log(messageJSON);
-        if (receiveMessageQueue) {
-            receiveMessageQueue.push(messageJSON);
-        } else {
+//        if (receiveMessageQueue) {
+//            receiveMessageQueue.push(messageJSON);
+//        } else {
             _dispatchMessageFromNative(messageJSON);
-        }
     }
 
     var WebViewJavascriptBridge = window.WebViewJavascriptBridge = {

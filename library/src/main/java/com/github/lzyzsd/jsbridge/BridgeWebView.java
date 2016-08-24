@@ -57,8 +57,12 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
     }
 
     private void init() {
+        String ua = this.getUserAgentString();
+        ua += ("/lianshang_android" + "/" + "1.8");
+        this.setUserAgentString(ua);
         this.setVerticalScrollBarEnabled(false);
         this.setHorizontalScrollBarEnabled(false);
+        this.setOnLongClickListener(null);
         this.setUIClient(generateBridgeWebViewClient());
         this.setResourceClient(generateBridgeWebViewUIClient());
     }
@@ -73,10 +77,10 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
 
     void handlerReturnData(String url) {
         String functionName = BridgeUtil.getFunctionFromReturnUrl(url);
-        Log.i("zhjh","URL中的方法是:"+functionName);
+        Log.i("zhjh", "URL中的方法是:" + functionName);
         CallBackFunction f = responseCallbacks.get(functionName);
         String data = BridgeUtil.getDataFromReturnUrl(url);
-        Log.i("zhjh","URL中的数据是:"+data);
+        Log.i("zhjh", "URL中的数据是:" + data);
         if (f != null) {
             f.onCallBack(data);
             responseCallbacks.remove(functionName);
@@ -135,7 +139,6 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
 
                 @Override
                 public void onCallBack(String data) {
-                    Log.i("zhjh","onCallBack:"+data);
                     // deserializeMessage
                     List<Message> list = null;
                     try {
@@ -164,7 +167,7 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
                                 responseFunction = new CallBackFunction() {
                                     @Override
                                     public void onCallBack(String data) {
-                                        Log.i("zhjh","onCallBack:"+data);
+                                        Log.i("zhjh", "onCallBack:" + data);
                                         Message responseMsg = new Message();
                                         responseMsg.setResponseId(callbackId);
                                         responseMsg.setResponseData(data);

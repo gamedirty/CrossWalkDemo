@@ -44,12 +44,12 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/bundles/debug/res/drawable/dropdown_popup_background.xml"
     },
     {
-        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/res/merged/androidTest/debug/drawable/dropdown_label_color.xml",
-        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/bundles/debug/res/drawable/dropdown_label_color.xml"
-    },
-    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/res/merged/androidTest/debug/drawable/bubble_arrow_up.png",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/bundles/debug/res/drawable/bubble_arrow_up.png"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/res/merged/androidTest/debug/drawable/dropdown_label_color.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/bundles/debug/res/drawable/dropdown_label_color.xml"
     },
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewintel64/build/intermediates/res/merged/androidTest/debug/drawable/ic_menu_share_holo_light.png",

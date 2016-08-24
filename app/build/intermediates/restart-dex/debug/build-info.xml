@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="23"
+    api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="329511326233573"
+    timestamp="430126690592461"
     token="2514960339117742657" >
 
     <task
@@ -24,17 +24,22 @@
         location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="325670508323763" >
+    <build timestamp="423905540320493" >
         <artifact
             location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="329389893327937" >
+    <build timestamp="424542447664636" >
         <artifact
-            location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="329511326233573" >
+    <build timestamp="429983356428153" >
+        <artifact
+            location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="430126690592461" >
         <artifact
             location="/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />

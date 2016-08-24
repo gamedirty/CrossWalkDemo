@@ -2,9 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <script type="text/javascript" src="WebViewJavascriptBridge.js"></script>
-
     <script language="JavaScript">
+
+            function finish(){
+            console.log('finish加载完成');
+            doLocation();
+            }
+
+
+            function ready(){
+			console.log('dom加载完成');
+
+    		}
+	    	document.addEventListener( "DOMContentLoaded", ready, false );
+
+
 			function show(str){
 				alert("fdsffsdfsdf:"+str);
 			}
@@ -38,8 +50,8 @@
 				locationMode:1,
 				onceLocation:true
 				};
-
-				WebViewJavascriptBridge.callHandler('locator',options,function(responseData){
+console.log('开始定位');
+				WebViewJavascriptBridge.callHandler('locationBridgeSend',options,function(responseData){
 					alert('定位结果:'+responseData);
 					document.getElementById('locationshow').innerHTML="定位结果:"+responseData;
 					console.log('定位成功');
@@ -47,11 +59,13 @@
 			}
 
 			function scanCode(){
-			WebViewJavascriptBridge.callHandler('scaner',{'name':'1'},function(responseData){
+			for(var i= 0;i<3;i++){
+			WebViewJavascriptBridge.callHandler('scanBridgeSend',{'name':'1'},function(responseData){
 
 			    console.log('返回结果是:'+responseData);
 			    document.getElementById('scancode').innerHTML="扫描结果:"+responseData;
 			    })
+			    }
 			}
 
 			function setTag(){
@@ -64,11 +78,24 @@
 
 			}
 
+			function takePhoto(){
+				WebViewJavascriptBridge.callHandler('camera',{},function(responseData){
+					console.log('照相返回结果:'+responseData);
+					document.getElementById('images').src=responseData;
+				})
+			}
+
+            function callTo(){
+        		var phoneNum = document.getElementById('phonenumber').value;
+				WebViewJavascriptBridge.callHandler('phonecall_bridge',{'number':''+phoneNum},function(responseData){
+
+				})
+			}
 
     </script>
 
 </head>
-<body>
+<body onload="finish();">
 <br/>
 <br/>
 <br/>
@@ -84,5 +111,12 @@
 <input type="text" id="tag"/>
 <br/>
 <button onclick="setTag();">绑定别名</button>
+<br />
+<button onclick="takePhoto();">拍照</button>
+<br />
+<img id="images"/>
+<br />
+<button onclick="callTo();">打电话给:</button> <input type="text" id="phonenumber"/>
+
 </body>
 </html>

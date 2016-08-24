@@ -1,5 +1,7 @@
 package com.github.lzyzsd.jsbridge;
 
+import android.util.Log;
+
 import org.xwalk.core.XWalkUIClient;
 import org.xwalk.core.XWalkView;
 
@@ -10,6 +12,7 @@ import org.xwalk.core.XWalkView;
  */
 public class BridgeXwalkClient extends XWalkUIClient {
     private BridgeWebView view;
+
     public BridgeXwalkClient(BridgeWebView view) {
         super(view);
         this.view = view;
@@ -17,10 +20,12 @@ public class BridgeXwalkClient extends XWalkUIClient {
 
     @Override
     public void onPageLoadStopped(XWalkView vview, String url, LoadStatus status) {
+
         super.onPageLoadStopped(view, url, status);
-        if (BridgeWebView.toLoadJs != null) {
-            BridgeUtil.webViewLoadLocalJs(view, BridgeWebView.toLoadJs);
-        }
+        Log.i("zhjh","onPageLoadStopped-----------===============");
+//        if (BridgeWebView.toLoadJs != null) {
+//            BridgeUtil.webViewLoadLocalJs(view, BridgeWebView.toLoadJs);
+//        }
 
         //
         if (view.getStartupMessage() != null) {
@@ -30,4 +35,7 @@ public class BridgeXwalkClient extends XWalkUIClient {
             view.setStartupMessage(null);
         }
     }
+
+
+
 }

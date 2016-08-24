@@ -20,12 +20,12 @@
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/bundles/debug/res/drawable/color_picker_advanced_select_handle.png"
     },
     {
-        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/res/merged/androidTest/debug/drawable/dropdown_popup_background.xml",
-        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/bundles/debug/res/drawable/dropdown_popup_background.xml"
-    },
-    {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/res/merged/androidTest/debug/drawable/ondemand_overlay.9.png",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/bundles/debug/res/drawable/ondemand_overlay.9.png"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/res/merged/androidTest/debug/drawable/dropdown_popup_background.xml",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/bundles/debug/res/drawable/dropdown_popup_background.xml"
     },
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/crosswebviewarm32/build/intermediates/res/merged/androidTest/debug/drawable/bubble.9.png",

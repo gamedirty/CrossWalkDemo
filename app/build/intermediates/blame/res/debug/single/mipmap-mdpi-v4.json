@@ -2,5 +2,9 @@
     {
         "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_action_discard.png",
+        "source": "/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/exploded-aar/CrossWalkDemo/photopicker_lib/unspecified/res/mipmap-mdpi-v4/ic_action_discard.png"
     }
 ]
