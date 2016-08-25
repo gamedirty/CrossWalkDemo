@@ -8,9 +8,8 @@ import com.example.sovnem.crosswalkdemo.bridges.JpushBridge;
 import com.example.sovnem.crosswalkdemo.bridges.LocationBridge;
 import com.example.sovnem.crosswalkdemo.bridges.PhoneCallBridge;
 import com.example.sovnem.crosswalkdemo.bridges.ScanCodeBridge;
+import com.example.sovnem.crosswalkdemo.bridges.SelectContactBridge;
 import com.github.lzyzsd.jsbridge.BridgeWebView;
-
-import java.util.LinkedList;
 
 public class HullActivity extends BaseBridgeActivity {
     BridgeWebView xWalkView;
@@ -27,7 +26,6 @@ public class HullActivity extends BaseBridgeActivity {
 //        xWalkView.loadUrl("file:///android_asset/index.html");
         xWalkView.load("file:///android_asset/index.html", null);
 //        xWalkView.load("http://www.baidu.com",null);
-
         bindBridge(xWalkView);
     }
 
@@ -37,8 +35,7 @@ public class HullActivity extends BaseBridgeActivity {
         ScanCodeBridge.bindToWebview(xWalkView, this, REQUESTCODE_SCAN_CODE);
         CameraBridge.bindToWebview(xWalkView, this, REQUESTCODE_TAKE_PHOTO);
         PhoneCallBridge.bindToWebview(xWalkView,this);
-        LinkedList linkedList = new LinkedList();
-        linkedList.add("");
+        SelectContactBridge.bindToWebview(xWalkView,this,REQUESTCODE_SELECT_CONTACT);
     }
 
 

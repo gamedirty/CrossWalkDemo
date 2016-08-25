@@ -45,6 +45,7 @@ public class BaseBridgeActivity extends AppCompatActivity {
                     ScanCodeBridge.handleActivityResult(data.getExtras());
                     break;
                 case REQUESTCODE_SELECT_FILE:
+                    SelectContactBridge.handleActivityResult(data.getExtras());
                     break;
                 case REQUESTCODE_SELECT_PICTURE:
 
