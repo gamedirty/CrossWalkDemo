@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Profiiliohjelmaa ei voi käynnistää, koska ulkoinen tallennustila ei ole valmis"</string>
     <string name="profiler_started_toast">"Profiiliohjelma käynnistyi"</string>
     <string name="profiler_stopped_toast">"Profiiliohjelma on valmis. Tulokset ovat tiedostossa %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Haku"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"ap"</string>
     <string name="time_picker_dialog_hour_minute_separator">"."</string>

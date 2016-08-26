@@ -17,7 +17,7 @@ import com.github.lzyzsd.jsbridge.CallBackFunction;
  * @date 16/8/23.
  */
 public class SelectContactBridge {
-    private final static String BRIDGE_NAME = "select_file";
+    private final static String BRIDGE_NAME = "selectcontact_bridge";
     private static CallBackFunction callBackFunction;
 
     public static void bindToWebview(BridgeWebView bridgeWebView, final Activity activity, final int requestCode) {

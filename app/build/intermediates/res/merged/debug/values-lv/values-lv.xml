@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Nevar startēt profilētāju, jo ārējā krātuve nav gatava."</string>
     <string name="profiler_started_toast">"Profilētājs startēts."</string>
     <string name="profiler_stopped_toast">"Profilētāja izpilde ir pabeigta. Rezultāti ir pieejami šeit: %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Meklēt"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

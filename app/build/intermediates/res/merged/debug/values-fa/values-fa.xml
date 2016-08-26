@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"نمایه‌ساز اجرا نمی‌شود زیرا حافظه خارجی آماده نیست"</string>
     <string name="profiler_started_toast">"نمایه‌ساز اجرا شد"</string>
     <string name="profiler_stopped_toast">"نمایه‌ساز پایان یافت. نتایج در %1$s ذخیره شده‌اند."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"جستجو"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"۹۹۹+"</string>
     <string name="time_picker_dialog_am">"ق.ظ"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

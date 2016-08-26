@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Instrumentul de creare a profilului nu poate porni, deoarece stocarea externă nu este gata"</string>
     <string name="profiler_started_toast">"Instrumentul de creare a profilului a pornit"</string>
     <string name="profiler_stopped_toast">"Instrumentul de creare a profilului a finalizat operația. Rezultatele apar în %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Căutați"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"˃999"</string>
     <string name="time_picker_dialog_am">"a.m."</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

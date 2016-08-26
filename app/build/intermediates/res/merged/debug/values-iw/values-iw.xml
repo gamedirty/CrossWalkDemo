@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"לא ניתן להפעיל את יוצר הפרופילים משום שהאחסון החיצוני אינו מוכן"</string>
     <string name="profiler_started_toast">"יוצר הפרופילים הופעל"</string>
     <string name="profiler_stopped_toast">"יוצר הפרופילים סיים את פעולתו. התוצאות נמצאות ב-%1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"חפש"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

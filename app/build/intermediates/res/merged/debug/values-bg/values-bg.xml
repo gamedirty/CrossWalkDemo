@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Не можем да стартираме профайлера, защото външното хранилище не е готово"</string>
     <string name="profiler_started_toast">"Профайлерът стартира"</string>
     <string name="profiler_stopped_toast">"Профайлерът приключи. Резултатите са в/ъв „%1$s“."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Търсене"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

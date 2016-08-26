@@ -45,22 +45,26 @@ public class BaseBridgeActivity extends AppCompatActivity {
                     ScanCodeBridge.handleActivityResult(data.getExtras());
                     break;
                 case REQUESTCODE_SELECT_FILE:
-                    SelectContactBridge.handleActivityResult(data.getExtras());
-                    break;
-                case REQUESTCODE_SELECT_PICTURE:
 
                     break;
+                case REQUESTCODE_SELECT_PICTURE:
+                    PickPictureBridge.handleActivityResult(data.getExtras());
+                    break;
                 case REQUESTCODE_SELECT_CONTACT:
+                    SelectContactBridge.handleActivityResult(data, this);
                     break;
             }
         }
     }
 
     private void print(Intent data) {
+        L.i("开始打印");
         if (data == null) return;
+        L.i("开始打印");
         JSONObject jo = new JSONObject();
         Bundle b = data.getExtras();
         if (b == null) return;
+        L.i("开始打印");
         Set<String> set = b.keySet();
         for (String s : set) {
             L.i(s + "," + b.get(s));

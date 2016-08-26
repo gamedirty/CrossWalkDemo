@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Profiler kann nicht gestartet werden, da der externe Speicher nicht bereit ist."</string>
     <string name="profiler_started_toast">"Profiler gestartet"</string>
     <string name="profiler_stopped_toast">"Profiler ist fertig. Die Ergebnisse befinden sich in der Datei %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

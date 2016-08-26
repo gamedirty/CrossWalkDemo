@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Nem lehet elindítani a profilozót, mert a külső tároló nem áll készen"</string>
     <string name="profiler_started_toast">"A profilozó elindult"</string>
     <string name="profiler_stopped_toast">"A profilozó végzett. Az eredmény a következőben található: %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Keresés"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"de."</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

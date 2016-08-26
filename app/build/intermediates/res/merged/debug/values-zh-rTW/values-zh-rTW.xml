@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"外部儲存空間尚未準備就緒，因此無法啟動分析器"</string>
     <string name="profiler_started_toast">"分析器已啟動"</string>
     <string name="profiler_stopped_toast">"分析器已執行完成，請參閱 %1$s 查看分析結果。"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

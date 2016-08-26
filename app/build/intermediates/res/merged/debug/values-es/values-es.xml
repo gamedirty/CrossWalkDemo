@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"No se puede iniciar el creador de perfiles porque el almacenamiento externo no está listo"</string>
     <string name="profiler_started_toast">"Se ha iniciado el creador de perfiles"</string>
     <string name="profiler_stopped_toast">"El creador de perfiles ha completado la operación. Los resultados se encuentran en el archivo %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

@@ -7,6 +7,7 @@ import android.os.Build;
 import android.os.Looper;
 import android.os.SystemClock;
 import android.text.TextUtils;
+import android.util.ArrayMap;
 import android.util.AttributeSet;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -26,6 +27,8 @@ public class BridgeWebView extends WebView implements WebViewJavascriptBridge {
 	public static final String toLoadJs = "WebViewJavascriptBridge.js";
 	Map<String, CallBackFunction> responseCallbacks = new HashMap<String, CallBackFunction>();
 	Map<String, BridgeHandler> messageHandlers = new HashMap<String, BridgeHandler>();
+
+
 	BridgeHandler defaultHandler = new DefaultHandler();
 
 	private List<Message> startupMessage = new ArrayList<Message>();

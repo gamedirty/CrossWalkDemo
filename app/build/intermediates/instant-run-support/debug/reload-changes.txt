@@ -1,4 +1,2 @@
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/github/lzyzsd/jsbridge/BridgeUtil$override.class
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/github/lzyzsd/jsbridge/BridgeWebViewClient$override.class
-CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/github/lzyzsd/jsbridge/BridgeXwalkClient$override.class
+CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridges/PickPictureBridge$override.class
 CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

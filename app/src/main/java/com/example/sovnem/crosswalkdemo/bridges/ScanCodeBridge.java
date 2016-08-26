@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.sovnem.crosswalkdemo.L;
 import com.github.lzyzsd.jsbridge.BridgeHandler;
 import com.github.lzyzsd.jsbridge.BridgeWebView;
 import com.github.lzyzsd.jsbridge.CallBackFunction;
@@ -23,6 +24,7 @@ public class ScanCodeBridge {
         bridgeWebView.registerHandler(BRIDGE_NAME, new BridgeHandler() {
             @Override
             public void handler(String data, CallBackFunction function) {
+                L.i("扫码二维码");
                 activity.startActivityForResult(new Intent(activity, CaptureActivity.class), requestCode);
                 callBackFunction = function;
             }

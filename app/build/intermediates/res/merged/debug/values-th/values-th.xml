@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"ไม่สามารถเริ่มโปรแกรมโปรไฟล์เลอร์ได้เนื่องจากที่จัดเก็บข้อมูลภายนอกไม่พร้อมใช้งาน"</string>
     <string name="profiler_started_toast">"เริ่มโปรแกรมโปรไฟล์เลอร์แล้ว"</string>
     <string name="profiler_stopped_toast">"โปรแกรมโปรไฟล์เลอร์ดำเนินการเสร็จแล้ว ผลลัพธ์อยู่ใน %1$s"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ค้นหา"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">"."</string>

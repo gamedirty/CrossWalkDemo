@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Impossible de démarrer le générateur de profils, car la mémoire de stockage externe n\'est pas disponible."</string>
     <string name="profiler_started_toast">"Le générateur de profils a été lancé."</string>
     <string name="profiler_stopped_toast">"Le générateur de profils a terminé sa tâche. Les résultats ont été exportés dans le fichier %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string name="time_picker_dialog_am">"a.m."</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

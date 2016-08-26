@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"ውጫዊ ማከማቻ ዝግጁ ስላልሆነ መገለጫ ሰሪውን ማስጀመር አልተቻለም"</string>
     <string name="profiler_started_toast">"መገለጫ ሰሪ ተጀምሯል"</string>
     <string name="profiler_stopped_toast">"መግለጫ ሰሪ ተጠናቅቋል። ውጤቶች በ%1$s ውስጥ ናቸው።"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ፈልግ"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"ጥዋት"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

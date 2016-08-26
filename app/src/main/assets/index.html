@@ -6,13 +6,12 @@
 
             function finish(){
             console.log('finish加载完成');
-            doLocation();
+
             }
 
-
             function ready(){
-			console.log('dom加载完成');
-
+			    console.log('dom加载完成');
+                 doLocation();
     		}
 	    	document.addEventListener( "DOMContentLoaded", ready, false );
 
@@ -50,7 +49,7 @@
 				locationMode:1,
 				onceLocation:true
 				};
-console.log('开始定位');
+                console.log('开始定位');
 				WebViewJavascriptBridge.callHandler('locationBridgeSend',options,function(responseData){
 					alert('定位结果:'+responseData);
 					document.getElementById('locationshow').innerHTML="定位结果:"+responseData;
@@ -60,7 +59,7 @@ console.log('开始定位');
 
 			function scanCode(){
 			for(var i= 0;i<3;i++){
-			WebViewJavascriptBridge.callHandler('scanBridgeSend',{'name':'1'},function(responseData){
+			WebViewJavascriptBridge.callHandler('scanBridgeSend',{},function(responseData){
 
 			    console.log('返回结果是:'+responseData);
 			    document.getElementById('scancode').innerHTML="扫描结果:"+responseData;
@@ -93,7 +92,18 @@ console.log('开始定位');
 			}
 
             function selectContact(){
+				WebViewJavascriptBridge.callHandler('selectcontact_bridge',{},function(responseData){
+					console.log('选择的联系人电话是:'+responseData);
+					document.getElementById('contactShow').innerHTML=responseData;
+				})
 
+            }
+
+            function pickPictures(){
+            	WebViewJavascriptBridge.callHandler('pickphotos_bridge',{},function(responseData){
+					console.log('选择的图片是:'+responseData);
+					document.getElementById('pickphotos').innerHTML=responseData;
+				})
 
             }
     </script>
@@ -105,22 +115,44 @@ console.log('开始定位');
 <br/>
 <button onclick="doLocation()">定位</button>
 <br/>
+<br />
 <div id="locationshow"></div>
 <br/>
-
+<br />
 <button onclick="scanCode();">扫描二维码</button>
 <br/>
+<br />
 <div id="scancode"></div>
 <br/>
+<br />
 <input type="text" id="tag"/>
 <br/>
+<br />
 <button onclick="setTag();">绑定别名</button>
+<br />
 <br />
 <button onclick="takePhoto();">拍照</button>
 <br />
+<br />
 <img id="images"/>
 <br />
+<br />
 <button onclick="callTo();">打电话给:</button> <input type="text" id="phonenumber"/>
-
+<br />
+<br />
+<br />
+<button onclick="selectContact();">选择联系人</button>
+<br />
+<br />
+<br />
+<div id="contactShow"></div>
+<br />
+<br />
+<br />
+<button onclick="pickPictures();">选择图片</button>
+<br />
+<br />
+<br />
+<div id="pickphotos"></div>
 </body>
 </html>

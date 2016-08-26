@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Неможливо запустити профілювальник, оскільки зовнішня пам’ять не готова"</string>
     <string name="profiler_started_toast">"Профілювальник запущено"</string>
     <string name="profiler_stopped_toast">"Профілювальник закінчив роботу. Результати у файлі %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Пошук"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"дп"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

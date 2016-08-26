@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Không thể khởi động profiler vì bộ nhớ ngoài không sẵn sàng"</string>
     <string name="profiler_started_toast">"Đã chạy Profiler"</string>
     <string name="profiler_stopped_toast">"Đã hoàn tất Profiler. Kết quả có trong %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Tìm kiếm"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"SA"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

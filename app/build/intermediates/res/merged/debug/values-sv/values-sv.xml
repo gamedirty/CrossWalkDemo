@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Det går inte att starta profileraren eftersom den externa lagringsplatsen inte är klar"</string>
     <string name="profiler_started_toast">"Profileraren har startats"</string>
     <string name="profiler_stopped_toast">"Profileringen är klar. Resultaten finns i %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Sök"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">"."</string>

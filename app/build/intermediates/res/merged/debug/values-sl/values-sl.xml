@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Orodja za spremljanje delovanja aplikacije ali sistema ni mogoče zagnati, ker zunanja naprava za shranjevanje ni pripravljena"</string>
     <string name="profiler_started_toast">"Orodje za spremljanje delovanja aplikacije ali sistema se je zagnalo"</string>
     <string name="profiler_stopped_toast">"Orodje za spremljanje delovanja aplikacije ali sistema je končalo postopek. Rezultati so v datoteki %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Iskanje"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"dop."</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

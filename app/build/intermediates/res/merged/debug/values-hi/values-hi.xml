@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"प्रोफ़ाइलर प्रारंभ नहीं हो सकता क्‍योंकि बाहरी मेमोरी तैयार नहीं है"</string>
     <string name="profiler_started_toast">"प्रोफ़ाइलर प्रारंभ किया गया"</string>
     <string name="profiler_stopped_toast">"प्रोफ़ाइलर पूर्ण. परिणाम %1$s में हैं."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"खोज"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"पूर्वाह्न"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

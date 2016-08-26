@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Nie można uruchomić narzędzia do profilowania, ponieważ zewnętrzna pamięć masowa nie jest gotowa"</string>
     <string name="profiler_started_toast">"Narzędzie do profilowania zostało uruchomione"</string>
     <string name="profiler_stopped_toast">"Profilowanie zakończone. Wyniki zostały zapisane w pliku %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Szukaj"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

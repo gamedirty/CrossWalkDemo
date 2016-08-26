@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"Hindi masimulan ang profiler dahil hindi handa ang panlabas na storage"</string>
     <string name="profiler_started_toast">"Nagsimula na ang profiler"</string>
     <string name="profiler_stopped_toast">"Tapos na ang profiler. Ang mga resulta ay nasa %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Maghanap"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

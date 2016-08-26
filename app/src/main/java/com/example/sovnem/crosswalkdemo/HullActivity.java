@@ -7,6 +7,7 @@ import com.example.sovnem.crosswalkdemo.bridges.CameraBridge;
 import com.example.sovnem.crosswalkdemo.bridges.JpushBridge;
 import com.example.sovnem.crosswalkdemo.bridges.LocationBridge;
 import com.example.sovnem.crosswalkdemo.bridges.PhoneCallBridge;
+import com.example.sovnem.crosswalkdemo.bridges.PickPictureBridge;
 import com.example.sovnem.crosswalkdemo.bridges.ScanCodeBridge;
 import com.example.sovnem.crosswalkdemo.bridges.SelectContactBridge;
 import com.github.lzyzsd.jsbridge.BridgeWebView;
@@ -36,6 +37,7 @@ public class HullActivity extends BaseBridgeActivity {
         CameraBridge.bindToWebview(xWalkView, this, REQUESTCODE_TAKE_PHOTO);
         PhoneCallBridge.bindToWebview(xWalkView,this);
         SelectContactBridge.bindToWebview(xWalkView,this,REQUESTCODE_SELECT_CONTACT);
+        PickPictureBridge.bindToWebview(xWalkView,this,REQUESTCODE_SELECT_PICTURE);
     }
 
 

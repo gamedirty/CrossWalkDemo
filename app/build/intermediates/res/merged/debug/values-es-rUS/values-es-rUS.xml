@@ -8,8 +8,8 @@
     <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
     <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
     <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Elige una aplicación."</string>
-    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVAR"</string>
-    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVAR"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
     <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
     <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Eliminar la consulta"</string>
     <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
@@ -68,6 +68,7 @@
     <string name="profiler_no_storage_toast">"No se puede iniciar el generador de perfiles porque el almacenamiento externo no está disponible."</string>
     <string name="profiler_started_toast">"Se inició el generador de perfiles."</string>
     <string name="profiler_stopped_toast">"El generador de perfiles terminó. Los resultados están en %1$s."</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="time_picker_dialog_am">"a. m."</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

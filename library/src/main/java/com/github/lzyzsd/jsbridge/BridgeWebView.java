@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Looper;
 import android.os.SystemClock;
+import android.support.v4.util.SimpleArrayMap;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -22,8 +23,10 @@ public class BridgeWebView extends XWalkView implements WebViewJavascriptBridge 
     private final String TAG = "BridgeWebView";
 
     public static final String toLoadJs = "WebViewJavascriptBridge.js";
-    Map<String, CallBackFunction> responseCallbacks = new HashMap<String, CallBackFunction>();
-    Map<String, BridgeHandler> messageHandlers = new HashMap<>();
+    SimpleArrayMap<String,BridgeHandler> messageHandlers = new SimpleArrayMap<>();
+    SimpleArrayMap<String,CallBackFunction> responseCallbacks = new SimpleArrayMap<>();
+
+
     BridgeHandler defaultHandler = new DefaultHandler();
 
     private List<Message> startupMessage = new ArrayList<Message>();
