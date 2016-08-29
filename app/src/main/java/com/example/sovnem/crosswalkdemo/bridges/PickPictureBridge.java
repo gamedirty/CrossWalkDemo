@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.elianshang.photopicker.PhotoPickerActivity;
+import com.elianshang.photopicker.SelectModel;
 import com.elianshang.photopicker.intent.PhotoPickerIntent;
 import com.github.lzyzsd.jsbridge.BridgeHandler;
 import com.github.lzyzsd.jsbridge.BridgeWebView;
@@ -28,6 +29,7 @@ public class PickPictureBridge {
                 PhotoPickerIntent intent = new PhotoPickerIntent(activity);
                 intent.setMaxTotal(9);
                 intent.setShowCarema(true);
+                intent.setSelectModel(SelectModel.MULTI);
                 activity.startActivityForResult(intent, requestCode);
                 callBackFunction = function;
             }

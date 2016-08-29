@@ -1,2 +1,3 @@
+CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridges/PickPictureBridge$1$override.class
 CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/sovnem/crosswalkdemo/bridges/PickPictureBridge$override.class
 CHANGED,/Users/sovnem/AndroidStudioProjects/CrossWalkDemo/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
